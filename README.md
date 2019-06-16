@@ -1,3 +1,6 @@
+##Interactive Map
+This project was created as a website which displays user interactive map. The map displays the markers for specific locations. When user clicks over the location marker a Information window will open to display the country details.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
@@ -26,6 +29,17 @@ The build is minified and the filenames include the hashes.<br>
 Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
+## ./node_modules/.bin/cypress open
+
+Open up the cypress.io test runner in the interactive watch mode.
+
+## docker build -t interactivemap:dev .
+
+Builds the docker image in the development mode.
+
+## docker run -v ${PWD}:/app -v /app/node_modules -p 3001:3000 --rm interactivemap:dev
+Runs the docker image  in the port [http://localhost:3001]
 
 ### `npm run eject`
 

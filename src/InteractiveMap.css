@@ -1,0 +1,46 @@
+.App-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;    
+  border:0px solid blue;  
+  margin:0;
+  padding:0;
+  
+}
+.App-header {
+  background-color: #282c34;
+  min-height: 10vh;
+  text-align: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 0; 
+  padding:0; 
+}
+#mapContainer {
+  overflow: hidden !important;
+  line-height: 1.35em;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  padding-top: 0px;
+  border:0px solid red; 
+  height:600px;   
+}
+
+#detailwindow{
+height:150px;
+width:220px;
+font-family: 'Courier New', Courier, monospace;
+text-align: left;
+}
+#detailwindow label { 
+  font-family: 'Courier New', Courier, monospace;
+  line-height: 20px;
+  text-align: left;  
+}
+#loadingWindow{
+  height:100px;
+  width:220px;
+  text-align: center;  
+  margin-top: 50px;
+}
