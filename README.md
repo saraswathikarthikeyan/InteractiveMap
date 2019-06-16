@@ -1,4 +1,4 @@
-##Interactive Map
+## Interactive Map
 This project was created as a website which displays user interactive map. The map displays the markers for specific locations. When user clicks over the location marker a Information window will open to display the country details.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
